@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: url("bg.jpeg") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container {
+    background-color: rgba(0, 139, 139, 0.7);
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, .3);
+    width: 85%;
+    max-width: 543px;
+    min-width: 354px;
+    text-align: center;
+}
+
+.curren-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curren-container select {
+    padding: 10px;
+}
+
+.curren-container input {
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.exchange-rate {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus,
+input:focus {
+    outline: 0;
+}
